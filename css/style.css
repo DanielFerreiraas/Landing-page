@@ -5,14 +5,40 @@
     box-sizing: border-box;
     
 }
+#alinhar{
+    padding: 0;
+    margin-left: 48.5%;
+    display: flex;
+    display: inline;
+}
+#fundo-port{
+    background-color: #131522;
+    width: 100%;
+    position: absolute;
+    height: 270px;
+    
+}
 
+a{
+    
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+
+#cabecalho{
+    width: 100%;
+    background-color: #131522;
+}
 body{
     background-color: #EDEDED;
 }
 
 #fundo{
     background-color: #131522;
-    width: 25%;
+    width: 26%;
     height: 140%;
     position: absolute;
 }
@@ -24,13 +50,34 @@ body{
     margin-left: 65px;
 }
 
-
+#img-port{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: -110px;
+    margin-left: 330px;
+    
+}
+.cards{
+    background-color: #EDEDED;
+    border: 0;
+    box-shadow: 2px 2px 2px 2px rgb(167, 167, 167);
+}
 #profissao{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 29px;
     font-size: medium;
     margin-top: 3px;
+}
+
+#profissao-port{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -40px;
+    font-size: medium;
+    margin-top: 2px;
+    text-align: center;
 }
 
 #nome{
@@ -40,7 +87,14 @@ body{
     margin-left: 29px;
     margin-top: 15px;
 }
-
+#nome-port{
+    color: #1BC5EB;
+    font-size:xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bolder;
+}
 .espec{
     color: #1BC5EB;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -150,3 +204,20 @@ ion-icon {
   ion-icon {
     color: #EDEDED;
   }
+
+#footer-port{
+    background-color: #1BC5EB;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white; 
+    margin-top: 20%;
+    padding: 15px;
+    font: normal 15pt arial;
+    font-size:larger;
+}
+
+#footer-port p{
+    margin-top: 20px;
+}
