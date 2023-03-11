@@ -10,6 +10,7 @@
     margin-left: 48.5%;
     display: flex;
     display: inline;
+    
 }
 #fundo-port{
     background-color: #131522;
@@ -182,6 +183,31 @@ body{
     color: #131522;
 }
 
+#menu-port {
+  
+    list-style-type: none;
+    padding: 0;
+    margin-left: 37%;
+    display: flex;
+    font-size:larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#menu-port li{
+    margin: 30px;
+    margin-top: -25px;
+    
+}
+
+#menu-port li a{
+    text-decoration: none;
+    color: #f9f9fc;
+    
+}
+
+
+
+
 footer{ /*essa classe é responsavel pelo rodapé da página*/
     background-color: #1BC5EB;
     position:relative;
@@ -212,7 +238,7 @@ ion-icon {
     width: 100%;
     text-align: center;
     color: white; 
-    margin-top: 20%;
+    margin-top: 10%;
     padding: 15px;
     font: normal 15pt arial;
     font-size:larger;

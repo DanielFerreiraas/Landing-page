@@ -1,0 +1,71 @@
+body{
+    margin:0;
+    background-color:#131522;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    margin: 0%;
+    padding: 25px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #1BC5EB;
+    transition: 0.5s;
+}
+
+header {
+text-align: center;
+color: white;
+}
+header h1 {
+    color: #1BC5EB;
+}
+header img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+main{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.item-contato{
+    background-color:#131522 ;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #1BC5EB;
+    margin-top: 40px;
+}
+
+.item-contato h2{
+  color: white;
+}
+
+ion-icon{
+    color: white;
+}
+
+.url-site{
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
