@@ -15,7 +15,14 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 20px;
+    margin: 25px;
+}
+
+
+@media only screen and(max-width: 600px) {
+    nav ul li {
+        margin: 15px;
+    }
 }
 
 nav ul li a {
