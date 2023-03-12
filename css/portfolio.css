@@ -25,28 +25,26 @@ nav {
 nav ul {
     margin: 0;
     padding: 25px;
+    
 }
 
 nav ul li {
     display: inline;
-   margin: 25px;
+    margin: 25px;
 }
 
 nav ul li a{
     text-decoration: none;
     text-transform: uppercase;
-    font-weight:bold;
+    font-weight: bold;
     color: white;
 }
 
-@media only screen and(max-width: 600px) {
-    nav ul li {
-        margin: 15px;
-    }
+a{
+    color: black;
+    text-decoration: none;
+   
 }
-    
-
-
 nav ul li a:hover{
    color: #1BC5EB;
    transition: 0.5s;
@@ -62,7 +60,7 @@ main {
 .item-portfolio{
 
     display: inline-block;
-    margin: 50px;
+    margin: 40px;
     border-radius: 15px;
     box-shadow: 2px 2px 2px 2px rgb(117, 114, 114);
 }
@@ -79,3 +77,21 @@ footer{
     padding: 20px;
     color: white;
 }
+
+@media only screen and (max-width:321px){
+    .item-portfolio{
+
+        display: inline-block;
+        margin: 10px;
+        border-radius: 15px;
+        box-shadow: 2px 2px 2px 2px rgb(117, 114, 114);
+    }
+    nav ul li {
+        justify-content: center;     
+        display: flex;
+        margin-top: 15px;
+        margin-bottom: 5px;
+       
+    }
+}
+    

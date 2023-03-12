@@ -5,106 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page</title>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+   
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-
-        <section id="fundo">
-            <img src="image/Imagem do WhatsApp de 2022-11-12 à(s) 02.16.09.jpg" alt="" id="img">
-
-            <h1 id="nome">Daniel Ferreira</h1>
-
-                <p id="profissao">Desenvolvedor <br> de software</p>
-
-            <h4 class="espec" id="carreira">Resumo</h4> <br>
-            
-                <p class="p">Eu atualmente ainda não trabalho na área, mas estou fazendo faculdade juntamente com o curso do comeia, <br> o Academy 2023 e estou adiquirindo bons conhecimentos para entrar no mercado</p>
-
-            <h4 class="espec">Competências</h4>
-            <br>
-
-            <ul id="ul">
-                <li class="p">Desenvolvedor Back-end</li>
-                <li class="p">Desenvolvedor Front-end</li>
-                <li class="p">Administrador de Banco de dados</li>
-            </ul>
-
-            <h4 class="espec" id="hab">Habilidades</h4> <br>
-        
-                <ion-icon src="image/logo-html5.svg" ></ion-icon>
-                <ion-icon name="logo-html5"></ion-icon>
-
-                <ion-icon src="image/logo-css3.svg"></ion-icon>
-                <ion-icon name="logo-css3"></ion-icon>
-
-                <ion-icon src="image/logo-javascript.svg"></ion-icon>
-                <ion-icon name="logo-javascript"></ion-icon>
-
-                <ion-icon src="image/logo-nodejs.svg"></ion-icon>
-                <ion-icon name="logo-nodejs"></ion-icon>
-
-                <ion-icon src="image/logo-react.svg"></ion-icon>
-                <ion-icon name="logo-react"></ion-icon>
-
-                </section>
-        
-            <ul id="menu-h">
-                <li><a href="">Currículo</a></li>
-                <li><a href="pages/portfolio.html">Portfólio</a></li>
-                <li><a href="">Contato</a></li>
-            </ul>
-
-            <section id="barra1" >
-                <h4 class="espec" id="h4">Formação Acadêmica</h4>
-
-                <h4 class="" id="forc">
-                    Faculdade UNINASSAU
-                </h4>
-            
-                <ul class="inf">
-                    <li><strong>Análise e desenvolvimento de sistemas</strong></li>
-                </ul>
-        </section>
-     
-        <section  id="barra2">
-            <h4 class="espec" id="h4-2">Cursos</h4>
-            
-            <h4 class="" id="forc">
-                Oracle
-            </h4>
-        
-            <ul class="inf">
-                <li><strong>Oracle Academy</strong></li>
-            </ul>
-
-            <h4 class="" id="forc">
-              Comeia
-            </h4>
-        
-            <ul class="inf">
-                <li> <strong>Comeia Academy 2023</strong></li>
-            </ul>
-
-            <h4 class="" id="forc">
-                Curso 3
-              </h4>
-          
-              <ul class="inf">
-                  <li> <strong>Curso de exemplificação</strong></li>
-              </ul>
-        </section>
-
-        <div>
-            <footer>
-                <section>
-                    <p>
-                       &copy;Desenvolved By DanSystems
-                    </p>
-                </section>
-            </footer>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Currículo</a></li>
+            <li><a href="pages/portfolio.html">Portfólio</a></li>
+            <li><a href="../pages/contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <header>
+        <img src="image/Imagem do WhatsApp de 2022-11-12 à(s) 02.16.09.jpg" alt="">
+        <h1>Hello!, i'am Daniel Ferreira</h1>
+        <h3>Desenvolvedor Web</h3>
+    </header>
+    <main>
+        <div class="item-curriculo">
+            <h2>Formação acadêmica</h2>
         </div>
-
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <h2>(Uninassau)</h2>
+        <h4>Graduando em Análise e desenvolvimento de sistemas</h4>
+        <div class="item-curriculo">
+            <h2>Cursos</h2>
+        </div>
+       
+        <h2>(Comeia)</h2>
+        <h4>Comeia Academy</h4>
+        <h2 >(Oracle)</h2>
+        <h4>Oracle Academy</h4>
+        <div class="item-curriculo">
+            <h2>Habilidades</h2>
+        </div>
+        <h4>Desenvolvedor front-end</h4>
+        <h4>Desenvolvedor back-end</h4>
+        <h4>Administrador de SGBD relacional</h4>
+        <div class="item-curriculo">
+            <h2>Stacks</h2>
+        </div>
+        <ion-icon name="logo-html5"></ion-icon>
+        <ion-icon name="logo-css3" ></ion-icon>
+        <ion-icon name="logo-javascript"></ion-icon>
+        <i class="fi fi-brands-php" style="font-size: 64px;"></i>
+        <ion-icon name="logo-figma"></ion-icon>
+        <i class="fi fi-brands-mysql" style="font-size: 64px;"></i>
+        <i class="fi fi-brands-bootstrap" style="font-size: 64px;"></i>
+        <ion-icon name="logo-nodejs"></ion-icon>
+    </main>
+    <footer>
+        &copy; 2023 DanSystems
+    </footer>
 </body>
 </html>
