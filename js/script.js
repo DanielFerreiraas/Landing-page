@@ -43,10 +43,10 @@ campoTelefone.addEventListener('input', function () {
 });
 
 function enviarParaWhatsApp() {
-    const nome = document.getElementById('input-nome').value;
-    const email = document.getElementById('input-email').value;
-    const telefone = document.getElementById('input-tel').value;
-    const mensagem = document.getElementById('input-msg').value;
+    let nome = document.getElementById('nome').value;
+    let email = document.getElementById('email').value;
+    let telefone = document.getElementById('tel').value;
+    let mensagem = document.getElementById('msg').value;
 
     const texto = `Nome: ${nome}\nE-mail: ${email}\nTelefone: ${telefone}\nMensagem: ${mensagem}`;
     const textoCodificado = encodeURIComponent(texto);
@@ -54,4 +54,10 @@ function enviarParaWhatsApp() {
     const url = `https://wa.me/${numeroWhatsApp}?text=${textoCodificado}`;
 
     window.open(url, '_blank');
+
+    nome = document.getElementById('input-nome').value = '';
+    email = document.getElementById('input-email').value = '';
+    telefone = document.getElementById('input-tel').value = '';
+    mensagem = document.getElementById('input-msg').value = '';
 }
+    

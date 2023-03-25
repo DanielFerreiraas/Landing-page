@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="../css/contato.css">
     <title>Contato</title>
 </head>
+
 <body>
     <nav>
         <ul>
@@ -16,65 +18,72 @@
             <li><a href="../pages/portfolio.html">Portfólio</a></li>
             <li><a href="contato.html">Contato</a></li>
     </nav>
-        <header>
-            <img src="../image/Imagem do WhatsApp de 2022-11-12 à(s) 02.16.09.jpg" alt="">
-            <h1>Daniel Ferreira</h1>
-            <h3>Desenvolvedor Web</h3>
-        </header>
-        <main>
-        <a href="mailto:daniel.ferreirass@gmail.com">  
+    <header>
+        <img src="../image/Imagem do WhatsApp de 2022-11-12 à(s) 02.16.09.jpg" alt="">
+        <h1>Daniel Ferreira</h1>
+        <h3>Desenvolvedor Web</h3>
+    </header>
+    <main>
+        <a href="mailto:daniel.ferreirass@gmail.com">
             <div class="item-contato">
                 <h2>E-mail</h2>
-                <ion-icon name="mail-outline" size="large;"style="font-size: 50px;">
+                <ion-icon name="mail-outline" size="large;" style="font-size: 50px;">
             </div>
         </a>
-            <a href="https://wa.me/5581981960204">
-                <div class="item-contato">
-                    <h2>WhatsApp</h2>
-                    <ion-icon name="logo-whatsapp" size="large;"style="font-size: 50px;"></ion-icon>
-                </div>
-            </a>
-            <a href="https://github.com/DanielFerreiraas/">
-                <div class="item-contato">
-                    
-                    <h2>GitHub</h2>
-                    <ion-icon name="logo-github" size="large;"style="font-size: 50px;"></ion-icon>
-                </div>
-            </a>
-           
-        </main>
-            
-            
-                <form onsubmit="event.preventDefault()">
-        
-                    <div class="contate"><h1>Contate-me</h1></div>
-                    <label for="input-nome">Nome</label>
-                    <input type="text" name="input-nome" id="input-nome" placeholder=" Nome" required minlength="2">
-                
-               
-                    <label for="input-email">E-mail</label>
-                    <input type="email" name="input-email" id="input-email" placeholder="  E-mail" required>
-                
-        
-                    <label for="input-tel">Telefone</label>
-                    <input type="tel" name="input-tel" id="input-tel" placeholder=" (00) 00000-0000" required pattern="^\(\d{2}\) \d{5}-\d{4}$" maxlength="15">
-               
-        
-                
-                    <label for="input-msg">Mensagem</label>
-                    <textarea name="input-msg" id="input-msg" cols="30" rows="10"></textarea>
-                
-        
-                    <input type="submit" value="ENVIAR" class="button" onclick="enviarFormulario()">
-                
-            </form>
-            
-            
-            
-        
-        <div class="url-site">
-            <h4>www.daniel.ferreiraas.github.io</h4>
+        <a href="https://wa.me/5581981960204">
+            <div class="item-contato">
+                <h2>WhatsApp</h2>
+                <ion-icon name="logo-whatsapp" size="large;" style="font-size: 50px;"></ion-icon>
+            </div>
+        </a>
+        <a href="https://github.com/DanielFerreiraas/">
+            <div class="item-contato">
+
+                <h2>GitHub</h2>
+                <ion-icon name="logo-github" size="large;" style="font-size: 50px;"></ion-icon>
+            </div>
+        </a>
+
+    </main>
+
+    <div class="line">
+        <hr>
+    </div>
+    <form onsubmit="event.preventDefault()">
+
+        <div class="contate">
+            <h1>Contate-me</h1>
         </div>
-        <script src="../js/script.js"></script>
+
+        <label for="input-nome">Nome</label>
+        <input type="text" name="input-nome" id="nome" placeholder=" Nome" required minlength="2">
+
+
+        <label for="input-email">E-mail</label>
+        <input type="email" name="input-email" id="email" placeholder="  E-mail" required>
+
+
+        <label for="input-tel">Telefone</label>
+        <input type="tel" name="input-tel" id="tel" placeholder=" (00) 00000-0000" required
+            pattern="^\(\d{2}\) \d{5}-\d{4}$" maxlength="15">
+
+
+
+        <label for="input-msg">Mensagem</label>
+        <textarea name="input-msg" id="msg" cols="30" rows="10"></textarea>
+
+
+        <input type="submit" value="ENVIAR" class="button" onclick="enviarFormulario()">
+
+    </form>
+
+
+
+
+    <div class="url-site">
+        <h4>www.daniel.ferreiraas.github.io</h4>
+    </div>
+    <script src="../js/script.js"></script>
 </body>
+
 </html>
