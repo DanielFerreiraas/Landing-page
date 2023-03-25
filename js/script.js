@@ -22,7 +22,7 @@ function enviarFormulario() {
     }
 }
 
-// Função de máscara de telefone
+
 function mascaraTelefone(telefone) {
     const texto = telefone.value;
     const textoApenasNumeros = texto.replace(/\D/g, '').substring(0, 11);
@@ -36,7 +36,7 @@ function mascaraTelefone(telefone) {
     telefone.value = telefoneFormatado;
 }
 
-// Adicionar evento de input ao campo de telefone
+
 const campoTelefone = document.getElementById('tel');
 campoTelefone.addEventListener('input', function () {
     mascaraTelefone(this);
@@ -50,14 +50,14 @@ function enviarParaWhatsApp() {
 
     const texto = `Nome: ${nome}\nE-mail: ${email}\nTelefone: ${telefone}\nMensagem: ${mensagem}`;
     const textoCodificado = encodeURIComponent(texto);
-    const numeroWhatsApp = '5581981960204'; // Insira o número de telefone do WhatsApp aqui (apenas números)
+    const numeroWhatsApp = '5581981960204';
     const url = `https://wa.me/${numeroWhatsApp}?text=${textoCodificado}`;
 
     window.open(url, '_blank');
     
-    nome = document.getElementById('input-nome').value = '';
-    email = document.getElementById('input-email').value = '';
-    telefone = document.getElementById('input-tel').value = '';
-    mensagem = document.getElementById('input-msg').value = '';
+    nome = document.getElementById('nome').value = '';
+    email = document.getElementById('email').value = '';
+    telefone = document.getElementById('tel').value = '';
+    mensagem = document.getElementById('msg').value = '';
 }
     

@@ -58,6 +58,13 @@ main{
     width: 50%;
     margin: auto;
 }
+
+main h2{
+    margin-top: 40px;
+}
+.tools-sk{
+    margin-top: 40px;
+}
 .item-curriculo{
     background-color:#131522 ;
     padding: 10px;
