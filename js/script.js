@@ -37,7 +37,7 @@ function mascaraTelefone(telefone) {
 }
 
 // Adicionar evento de input ao campo de telefone
-const campoTelefone = document.getElementById('input-tel');
+const campoTelefone = document.getElementById('tel');
 campoTelefone.addEventListener('input', function () {
     mascaraTelefone(this);
 });
@@ -54,7 +54,7 @@ function enviarParaWhatsApp() {
     const url = `https://wa.me/${numeroWhatsApp}?text=${textoCodificado}`;
 
     window.open(url, '_blank');
-
+    
     nome = document.getElementById('input-nome').value = '';
     email = document.getElementById('input-email').value = '';
     telefone = document.getElementById('input-tel').value = '';

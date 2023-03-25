@@ -83,8 +83,9 @@ ion-icon{
     text-align: center;
 }
 .line hr{
-    width: 80%;
-    margin-top: 90px;
+    border: 1px solid #1BC5EB;
+    width: 85%;
+    margin-top: 85px;
 
 }
 form {
@@ -111,7 +112,7 @@ form input, textarea {
     border: none;
     outline: none;
     margin: 10px auto;
-    margin-right: 10px;
+    
     border-radius: 10px;
 }
 
