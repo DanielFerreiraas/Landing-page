@@ -39,6 +39,9 @@ color: white;
 header h1 {
     color: #1BC5EB;
 }
+header h3{
+    margin-top: -20px;
+}
 header img {
     border-radius: 50%;
     width: 200px;
@@ -74,6 +77,52 @@ ion-icon{
     color: white;
     margin-top: 40px;
 }
+.contate{
+    
+    color: white;
+    text-align: center;
+}
+
+form {
+    
+    box-shadow: 2px 2px 2px 2px #1BC5EB;
+    width: 400px;
+    padding: 20px;
+    margin: 100px auto;
+    border-radius: 15px;
+    background-color: #131522;
+}
+.invalid {
+    border: 2px solid red;
+}
+
+
+form label {
+    color: white;
+    font-weight: bolder;
+}
+
+form input, textarea {
+    width: 100%;
+    border: none;
+    margin: 10px auto;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+form input{
+    height: 40px;
+}
+
+
+.button{
+    text-align: center;
+    width: 100%;
+    border: none;
+    background-color: #1BC5EB;
+    color: white;
+    font-weight: bolder;
+}
 
 @media only screen and (max-width:321px){
     .item-p{
@@ -91,5 +140,14 @@ ion-icon{
         margin-bottom: 5px;
         
     }
+   
 }
+
+
+@media only screen and (max-width: 500px) {
+    form {
+        width: 70%;
+    }
+}
+
     

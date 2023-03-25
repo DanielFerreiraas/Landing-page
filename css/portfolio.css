@@ -12,6 +12,10 @@ header {
 header h1 {
     color: #1BC5EB;
 }
+
+header h3{
+    margin-top: -20px;
+}
 header img {
     border-radius: 50%;
     width: 200px;
